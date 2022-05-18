@@ -1,0 +1,79 @@
+:root{
+    --primary-color: #0BBF53;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 12px;
+    font-size: 14px;
+}
+.navbar_logo{
+    margin: 12px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.navbar--menu{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.navbar_item{
+    margin: 1px;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+.navbar_item-form{
+    padding: 12px 14px;
+}
+.navbar_item i{
+    margin-left: 4px;
+}
+.navbar_item-form a{
+    text-decoration: none;
+   color: black;
+}
+
+.navbar_item:hover .navbar_item-form {
+    color: var(--primary-color);
+    background: #dadada;
+    border-radius: 10px;
+}
+.navbar_item:hover .navbar_item-form a{
+    color: var(--primary-color);
+}
+
+
+.navbar--uer button{
+    border: none;
+    outline: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    display: block;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.navbar_login{
+    color: #2d374d;
+    margin-right: 4px;
+    background: white;
+    transition: 0.5s;
+}
+.navbar_signup{
+    background: #2d374d;
+    color: white;
+    margin-left: 4px;
+    cursor: pointer;
+}
+
+.navbar_login:hover{
+    background: #b4b6b9;
+    cursor: pointer;
+}

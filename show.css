@@ -1,0 +1,78 @@
+:root{
+    --primary-color: #0BBF53;
+    --word-color: #2D374B;
+}
+.show_direction{
+    width: 50%;
+   
+}
+
+.show_direction--title{
+    padding: 47px 0 32px 0;
+    font-size: 25px;
+    font-weight: bold;
+    color: var(--word-color);
+}
+
+.show_direction--title03{
+    color: var(--primary-color);
+}
+.show_direction--detail{
+    margin-bottom: 32px;
+    padding-right: 180px;
+}
+.show_direction--detail p{
+    color: var(--word-color);
+    font-weight: bold;
+}
+.show_direction--btn{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+}
+
+.request_btn{
+    border: none;
+    background: var(--primary-color);
+    padding: 12px 16px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}
+.request_btn:hover{
+    background: rgb(41, 128, 41);
+    cursor: pointer;
+}
+
+.direction__btn--sign{
+    margin-left:16px;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    padding: 12px 20px;
+    position: relative;
+    transition: 0.1s;
+}
+.direction__btn--sign i{
+    position: absolute;
+    right: 6px;
+    transition: 0.5s;
+}
+
+.sign_btn{
+    border: none;
+    background-color: white;
+    margin-right: 4px;
+    font-weight: bold;
+    
+}
+.direction__btn--sign:hover{
+    background: #dadada;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.direction__btn--sign:hover i{
+    right: -2px; 
+}
+
